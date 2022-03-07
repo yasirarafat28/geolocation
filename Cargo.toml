@@ -1,0 +1,15 @@
+[package]
+name = "geolocation"
+version = "0.1.0"
+edition = "2021"
+authors = ["Yasir Arafat <yasirarafat1995@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
+isahc = "1.6"
+
+# [lib]
+# name = "find"           # The name of the target.
+# path = "src/find.rs"    # The source file of the target.
