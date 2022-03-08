@@ -57,8 +57,8 @@ pub struct Locator {
     pub location:String
 }
 
-fn find(ip: Option<&str>)-> Result<Locator, isahc::Error>{
-    let uri = format!("http://ip-api.com/json/{:?}",&ip);
+pub fn find(ip: &str)-> Result<Locator, isahc::Error>{
+    let uri = format!("http://ip-api.com/json/{}",&ip);
     println!("URI : {}",uri);
     let mut local_data_response = isahc::get(uri)?;
 
