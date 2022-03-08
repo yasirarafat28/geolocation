@@ -3,7 +3,7 @@
 //! Get geolocation information of an IP. Its simple. 
 //!
 //! ```
-//! geolocation = "0.1.0"
+//! geolocation = "0.1.2"
 //! ```
 //! Add to `Cargo.toml`.
 //!
