@@ -3,6 +3,7 @@ name = "geolocation"
 version = "0.1.0"
 edition = "2021"
 authors = ["Yasir Arafat <yasirarafat1995@gmail.com>"]
+description="A library to get geolocation information of an IP. Its simple"
 license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
