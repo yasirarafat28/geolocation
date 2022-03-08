@@ -16,9 +16,9 @@
 
 //! fn main() {
 //!     let ip = "<Put your IP address Here>";
-//!     let location = geolocation::find(ip).unwrap();
+//!     let info.city = geolocation::find(ip).unwrap();
 //! 
-//!     println!("{:?}", location);
+//!     println!("{:?}", info.city.city);
 //! }
 //! ```
 //!
@@ -59,7 +59,6 @@ pub struct Locator {
 
 pub fn find(ip: &str)-> Result<Locator, isahc::Error>{
     let uri = format!("http://ip-api.com/json/{}",&ip);
-    println!("URI : {}",uri);
     let mut local_data_response = isahc::get(uri)?;
 
     let local_data = local_data_response.text().unwrap();

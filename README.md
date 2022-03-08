@@ -11,9 +11,9 @@ Using geolocation is really quite easy and simple:
 use geolocation;
 fn main() {
     let ip = "<Put your IP address Here>";
-    let location = geolocation::find(ip).unwrap();
+    let info = geolocation::find(ip).unwrap();
  
-    println!("{:?}", location);
+    println!("{:?}", info.city);
 }
 
 ```
