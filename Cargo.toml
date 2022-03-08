@@ -1,12 +1,12 @@
 [package]
 name = "geolocation"
-version = "0.1.2"
+version = "0.2.0"
 edition = "2021"
 authors = ["Yasir Arafat <yasirarafat1995@gmail.com>"]
 description="A library to get geolocation information of an IP. Its simple"
 license = "MIT"
 repository="https://github.com/yasirarafat28/geolocation.git"
-documentation="https://docs.rs/locator/geolocation"
+documentation="https://docs.rs/geolocation"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
