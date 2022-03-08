@@ -1,6 +1,6 @@
 
 //! # geolocation
-//! Get IP address geolocation information freely.
+//! Get geolocation information of an IP. Its simple. 
 //!
 //! ```
 //! geolocation = "0.1.0"
@@ -15,10 +15,10 @@
 //! use geolocation;
 
 //! fn main() {
-//! let ip = "127.0.0.1";
-    //! let location = geolocation::find(ip).unwrap();
+//!     let ip = "<Put your IP address Here>";
+//!     let location = geolocation::find(ip).unwrap();
 //! 
-    //! println!("{:?}", location);
+//!     println!("{:?}", location);
 //! }
 //! ```
 //!
