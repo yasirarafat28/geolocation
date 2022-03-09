@@ -1,6 +1,6 @@
 [package]
 name = "geolocation"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Yasir Arafat <yasirarafat1995@gmail.com>"]
 description="A library to get geolocation information of an IP. Its simple"

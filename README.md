@@ -1,7 +1,7 @@
 # geolocation
 Get geolocation information of an IP. Its simple.
 ```sh
-geolocation = "0.2.0"
+geolocation = "0.2.1"
 ```
 Add this line to your Cargo.toml.
 
